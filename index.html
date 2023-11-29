@@ -19,12 +19,80 @@
   </head>
   <body>
     <div class="page">
-      <header class="header"></header>
+      <header class="header">
+        <nav class="nav">
+          <img
+            src="./images/logo_coffeeshop_dark.svg"
+            alt="Triple Peaks Library Logo"
+            class="nav__logo"
+          />
+          <ul class="nav__links">
+            <li>
+              <a class="nav__link" href="#recipes-link">Recetas</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#menu-link">Menú</a>
+            </li>
+            <li>
+              <a class="nav__link" href="#reservation-link"
+                >Reservar una mesa</a
+              >
+            </li>
+            <li>
+              <a class="nav__link" href="#contact-link">Contactos</a>
+            </li>
+          </ul>
+        </nav>
+          <h1 class="header__title">
+            <span class="span-accent">Café de especialidad</span> en&nbsp;la&nbsp;biblioteca&nbsp;Triple&nbsp;Peaks
+          </h1>
+        <p class="header__description">
+          ¡Te damos la bienvenida a nuestra zona de estudio! Aquí tenemos café
+          para darte energía y una vibra acogedora que motivarán tu creatividad.
+        </p>
+        <img
+          src="./images/inside_coffee_shop.png"
+          alt="Illustration 'Inside the library'"
+          class="header__image"
+        />
+        <div class="header__footer">
+          <div class="header__columns">
+            <div class="header__column header__column_content_hours">
+              <p class="header__column-heading">Horario:</p>
+              <ul class="header__list">
+                <li class="header__list-item">
+                  Lunes a Viernes (de 10:00 a 19:00)
+                </li>
+                <li class="header__list-item">
+                  Sábados y Domingos (de 11:00 a 18:00)
+                </li>
+              </ul>
+            </div>
+          </div>
+            <p class="header__address">
+              Avenida del Éxito 200, Ciudad Triple Peaks
+            </p>
+          </div>
+        </div>
+      </header>
       <main class="content">
-        <section class="recipes"></section>
-        <section class="reservation"></section>
-        <section class="menu"></section>
-        <section class="about"></section>
+        <section class="recipes" id="recipes-link">
+          <h2 class="recipes__title">Recetas</h2>
+          <h3 class="recipes__subtitle">Echa un vistazo a algunas de las recetas que hemos reunido para que elabores tu propio café.</h3>
+          <div class="recipes__videos">
+            <div class="recipes__iframe">
+              <iframe id="ytplayer" type="text/html" width="480" height="273" src="https://www.youtube.com/embed/j6VlT_jUVPc" frameborder="0" allowfullscreen></iframe>
+              <p class="recipes__video-caption">Receta en Aeropress <span class="recipe__time">~5 min</span></p>
+            </div>
+            <div class="recipes__iframe">
+              <iframe id="ytplayer" type="text/html" width="480" height="273" src="https://www.youtube.com/embed/st571DYYTR8" frameborder="0" allowfullscreen></iframe>
+              <div class="recipes__video-caption">Receta en cafetera francesa <span class="recipe__time">~15 min</span></div>
+            </div>
+          </div>
+        </section>
+        <section class="menu" id="menu-link"></section>
+        <section class="reservation" id="reservation-link"></section>
+        <section class="about" id="contact-link"></section>
       </main>
       <footer class="footer"></footer>
     </div>
