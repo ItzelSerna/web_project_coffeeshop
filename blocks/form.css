@@ -4,10 +4,6 @@
   align-items: center;
 }
 
-.reservation__form {
-  margin-bottom: 120px;
-}
-
 .form__fildset {
   display: flex;
   flex-direction: column;

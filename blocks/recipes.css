@@ -41,14 +41,3 @@
   font-size: 20px;
   gap: 40px;
 }
-
-.video-caption {
-  margin-top: 24px;
-  display: flex;
-  justify-content: space-between;
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 500;
-  font-size: 20px;
-  line-height: 30px;
-}
